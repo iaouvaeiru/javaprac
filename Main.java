@@ -1,7 +1,5 @@
 import java.util.Date;
 
-import javax.sound.sampled.SourceDataLine;
-
 public class Main {
     public static void main(String[] args) throws Exception {
             byte age = 45;
@@ -15,7 +13,6 @@ public class Main {
             boolean isFree = false;
 
             Date now = new Date();
-            
 
         System.out.println(now);
     }
